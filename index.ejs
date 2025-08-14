@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home/X</title>
+  <link rel="shortcut icon" href="https://abs.twimg.com/favicons/twitter-pip.3.ico">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link rel="stylesheet" href=https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined />
+</head>
+
+<body class="bg-black text-white">
+  <div class="container flex mx-auto m">
+    <div class="first w-[60%] ">
+
+      <div class="sidebar sticky top-0 flex justify-center">
+        <ul class="flex flex-col space-y-3 text-xl font-bold">
+          <div class="logo flex mr-5 invert my-4">
+            <svg viewBox="0 0 24 24" aria-hidden="true"
+              class="m-auto w-8 r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1nao33i r-16y2uox r-lwhw9o">
+              <g>
+                <path
+                  d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z">
+                </path>
+              </g>
+            </svg>
+          </div>
+          <li
+            class="flex justify-start items-center gap-4 hover:cursor-pointer w-fit hover:bg-gray-900 hover:rounded-4xl px-3 py-1">
+            <span class="material-symbols-outlined "> home </span> <span class="hidden md:block">Home</span>
+          </li>
+          <li
+            class="flex justify-start items-center gap-4 hover:cursor-pointer w-fit hover:bg-gray-900 hover:rounded-4xl px-3 py-1">
+            <span class="material-symbols-outlined"> explore </span> <span class="hidden md:block">Explore</span>
+          </li>
+          <li
+            class="flex justify-start items-center gap-4 hover:cursor-pointer w-fit hover:bg-gray-900 hover:rounded-4xl px-3 py-1">
+            <span class="material-symbols-outlined"> notifications </span> <span
+              class="hidden md:block">Notifications</span>
+          </li>
+          <li
+            class="flex justify-start items-center gap-4 hover:cursor-pointer w-fit hover:bg-gray-900 hover:rounded-4xl px-3 py-1">
+            <span class="material-symbols-outlined"> mail </span> <span class="hidden md:block">Message</span>
+          </li>
+          <li
+            class="flex justify-start items-center gap-4 hover:cursor-pointer w-fit hover:bg-gray-900 hover:rounded-4xl px-3 py-1">
+            <span class="material-symbols-outlined"> circles </span> <span class="hidden md:block">Grok</span>
+          </li>
+          <li
+            class="flex justify-start items-center gap-4 hover:cursor-pointer w-fit hover:bg-gray-900 hover:rounded-4xl px-3 py-1">
+            <span class="material-symbols-outlined"> bookmark </span> <span class="hidden md:block">Bookmarks</span>
+          </li>
+          <li
+            class="flex justify-start items-center gap-4 hover:cursor-pointer w-fit hover:bg-gray-900 hover:rounded-4xl px-3 py-1">
+            <span class="material-symbols-outlined"> group </span> <span class="hidden md:block">Communities</span>
+          </li>
+          <li
+            class="flex justify-start items-center gap-4 hover:cursor-pointer w-fit hover:bg-gray-900 hover:rounded-4xl px-3 py-1">
+            <span class="material-symbols-outlined"> close </span> <span class="hidden md:block">Premium</span>
+          </li>
+          <li
+            class="flex justify-start text-wrap items-center gap-4 hover:cursor-pointer w-fit hover:bg-gray-900 hover:rounded-4xl px-3 py-1">
+            <span class="material-symbols-outlined"> bolt </span> <span class="hidden md:block">Verified Orgs</span>
+          </li>
+          <li
+            class="flex justify-start items-center gap-4 hover:cursor-pointer w-fit hover:bg-gray-900 hover:rounded-4xl px-3 py-1">
+            <span class="material-symbols-outlined"> contacts_product </span> <span
+              class="hidden md:block">Profile</span>
+          </li>
+          <li
+            class="flex justify-start items-center gap-4 hover:cursor-pointer w-fit hover:bg-gray-900 hover:rounded-4xl px-3 py-1">
+            <span class="material-symbols-outlined"> pending </span> <span class="hidden md:block">More</span>
+          </li>
+          <div class="btn">
+            <button class="w-full h-10 rounded-4xl bg-blue-500 my-2 text-white cursor-pointer">Posts</button>
+          </div>
+        </ul>
+      </div>
+      <div class="userprofile flex mx-10 sticky top-[90vh]">
+        <span class="image flex mt-5">
+          <img class="w-10 flex h-10 rounded-4xl hover:cursor-pointer" alt="Image" draggable="true"
+            src="https://pbs.twimg.com/profile_images/1947171615168430080/QhbhusY8_400x400.png" class="css-9pa8cd">
+          <div class="mx-1"> Akshat Gupta
+            <div class="text-sm text-gray-500 ">@akshatx03x</div>
+          </div>
+          <span class="material-symbols-outlined mx-3 hover:cursor-pointer">
+            more_horiz
+          </span>
+        </span>
+
+      </div>
+    </div>
+    <div class="second w-[130%] border border-y-black border-x-gray-600">
+      <div class="nav flex relative ">
+        <div class="absolute w-16 h-1 bg-blue-600 bottom-0 left-27"></div>
+        <div class="w-1/2 flex justify-center font-bold hover:bg-zinc-900 hover:cursor-pointer">For You</div>
+        <div class="w-1/2 flex justify-center font-bold hover:bg-zinc-900 hover:cursor-pointer">Following</div>
+        <div class="mx-2"><span class="material-symbols-outlined cursor-pointer "> settings </span></div>
+      </div>
+      <hr class="text-gray-600">
+      <div class="whatishapp flex m-4">
+        <div class="img mx-2 ">
+          <img class="w-12 h-10 rounded-4xl" alt="Image" draggable="true"
+            src="https://pbs.twimg.com/profile_images/1947171615168430080/QhbhusY8_400x400.png" class="css-9pa8cd">
+        </div>
+        <div class="w-full"> <input class="w-full bg-black outline-none text-xl text-white " type="text"
+            placeholder="What's Happening?">
+          <div class=" gap-1 text-blue-400 text-[12px] font-bold flex items-center">
+            <span class="material-symbols-outlined text-[12px]">
+              globe_asia
+            </span><span class="my-2 mx-1 ">Everyone Can Reply!!!</span>
+          </div>
+          <div class="w-[90%] my-1 h-[0.2px] bg-gray-400 "></div>
+        </div>
+      </div>
+      <div class="blueicons flex gap-2 text-blue-400 px-1 my-2 mx-16">
+        <span class="material-symbols-outlined cursor-pointer">
+          image
+        </span>
+        <span class="material-symbols-outlined cursor-pointer">
+          gif
+        </span>
+        <span class="material-symbols-outlined cursor-pointer">
+          ballot
+        </span>
+        <span class="material-symbols-outlined cursor-pointer">
+          sentiment_satisfied
+        </span>
+        <span class="material-symbols-outlined cursor-pointer">
+          calendar_month
+        </span>
+        <span class="material-symbols-outlined cursor-pointer">
+          pin_drop
+        </span>
+
+        <span>
+          <button class="border-2 rounded-2xl text-sm bg-amber-50 text-black font-bold hover:cursor-pointer px-3 py-1 hover:bg-gray-300">
+            Post
+          </button>
+        </span>
+
+      </div>
+      <hr class="text-gray-600">
+      <div class="posts mx-2 my-3">
+        <div class="post flex">
+          <div class="img ">
+            <img class="w-10 h-10 rounded-4xl mx-3" alt="Image" draggable="true"
+              src="https://pbs.twimg.com/profile_images/1947171615168430080/QhbhusY8_400x400.png" class="css-9pa8cd">
+          </div>
+          <div class="content mx-5">
+            <span class=" hover:cursor-pointer hover:underline font-bold text-white ">Akshat Gupta</span> <span
+              class="text-gray-500 hover:cursor-pointer">@akshatx03x ~6h</span>
+            <div> <span class="item text-[15px]">4th TEST. England won the toss and elected to bowl. </span> <span
+                class=" hover:underline hover:cursor-pointer text-[13px] text-blue-400">http://bit.ly/ENGvIND-4thTEST-2025
+                #ENGvIND #4thTest</span></div>
+            <div class="img">
+              <img class="rounded-xl"
+                src="https://pbs.twimg.com/card_img/1947903788872044545/jrFF1Noz?format=png&name=small" alt="">
+            </div>
+            <div class="icons hover:cursor-pointer my-3 text-gray-400 text-sm flex justify-between">
+              <div class="flex items-center gap-1">
+                <span class=" material-symbols-outlined">chat_bubble</span>
+                <span>1k</span>
+              </div>
+              <div class="flex items-center gap-1">
+                <span class="material-symbols-outlined">repeat</span>
+                <span>1.8k</span>
+              </div>
+              <div class="flex items-center gap-1">
+                <span class="material-symbols-outlined">favorite</span>
+                <span>2M</span>
+              </div>
+              <div class="flex items-center gap-1">
+                <span class="material-symbols-outlined">bar_chart</span>
+                <span>1k</span>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+      <hr class="text-gray-600 w-full">
+      <div class="posts mx-2 my-3">
+        <div class="post flex">
+          <div class="img ">
+            <img class="w-10 h-10 rounded-4xl mx-3" alt="Image" draggable="true"
+              src="https://pbs.twimg.com/profile_images/1947171615168430080/QhbhusY8_400x400.png" class="css-9pa8cd">
+          </div>
+          <div class="content mx-5">
+            <span class=" hover:cursor-pointer hover:underline font-bold text-white ">Akshat Gupta</span> <span
+              class="text-gray-500 hover:cursor-pointer">@akshatx03x ~6h</span>
+            <div> <span class="item text-[15px]">Game Concept- Open World Game based in Ladakh. </span> <span
+                class=" hover:underline hover:cursor-pointer text-[13px] text-blue-400">http://bit.ly/ENGvIND-4thTEST-2025
+                #ENGvIND #4thTest</span></div>
+            <div class="img">
+              <img class="rounded-xl" src="https://pbs.twimg.com/media/Gwjb_uNagAAK0V3?format=jpg&name=360x360" alt="">
+            </div>
+            <div class="icons hover:cursor-pointer my-3 text-gray-400 text-sm flex justify-between">
+              <div class="flex items-center gap-1">
+                <span class=" material-symbols-outlined">chat_bubble</span>
+                <span>1k</span>
+              </div>
+              <div class="flex items-center gap-1">
+                <span class="material-symbols-outlined">repeat</span>
+                <span>1.8k</span>
+              </div>
+              <div class="flex items-center gap-1">
+                <span class="material-symbols-outlined">favorite</span>
+                <span>2M</span>
+              </div>
+              <div class="flex items-center gap-1">
+                <span class="material-symbols-outlined">bar_chart</span>
+                <span>1k</span>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+      <hr class="text-gray-600 ">
+      <div class="posts mx-2 my-3">
+        <div class="post flex">
+          <div class="img ">
+            <img class="w-14 h-10 rounded-4xl mx-3" alt="Image" draggable="true"
+              src="https://pbs.twimg.com/profile_images/1947171615168430080/QhbhusY8_400x400.png" class="css-9pa8cd">
+          </div>
+          <div class="content mx-5">
+            <span class=" hover:cursor-pointer hover:underline font-bold text-white ">Akshat Gupta</span> <span
+              class="text-gray-500 hover:cursor-pointer">@akshatx03x ~6h</span>
+            <div> <span class="item text-[15px]">
+                We've hidden 8 #realmeNARZO80Lite4G phones in this room. Find them, tell us where, and get a chance to
+                win* it.. </span> <span
+                class=" hover:underline hover:cursor-pointer text-[13px] text-blue-400">http://bit.ly/ENGvIND-4thTEST-2025
+                #ENGvIND #4thTest</span></div>
+            <div class="img">
+              <img class="rounded-xl" src="https://pbs.twimg.com/media/GwiV_zTaAAAWIx6?format=jpg&name=small" alt="">
+            </div>
+            <div class="icons hover:cursor-pointer my-3 text-gray-400 text-sm flex justify-between">
+              <div class="flex items-center gap-1">
+                <span class=" material-symbols-outlined">chat_bubble</span>
+                <span>1k</span>
+              </div>
+              <div class="flex items-center gap-1">
+                <span class="material-symbols-outlined">repeat</span>
+                <span>1.8k</span>
+              </div>
+              <div class="flex items-center gap-1">
+                <span class="material-symbols-outlined">favorite</span>
+                <span>2M</span>
+              </div>
+              <div class="flex items-center gap-1">
+                <span class="material-symbols-outlined">bar_chart</span>
+                <span>1k</span>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+      <hr class="text-gray-600 w-full">
+      <div class="posts mx-2 my-3">
+        <div class="post flex">
+          <div class="img ">
+            <img class="w-30 h-10 rounded-4xl mx-3" alt="Image" draggable="true"
+              src="https://pbs.twimg.com/profile_images/1947171615168430080/QhbhusY8_400x400.png" class="css-9pa8cd">
+          </div>
+          <div class="content mx-5">
+            <span class=" hover:cursor-pointer hover:underline font-bold text-white ">Akshat Gupta</span> <span
+              class="text-gray-500 hover:cursor-pointer">@akshatx03x ~6h</span>
+            <div> <span class="item text-[15px]">MK Stalin's Tamil Nadu Govt has doubled the per capita income in just 4
+                years, Much higher than the national average.
+
+                This is what happens when a state focuses on development instead of finding out which food stall belongs
+                to hindus and which belongs to Muslims.
+
+                MK Stalin 👏🏻 </span></div>
+            <div class="img">
+              <img class="rounded-xl" src="https://pbs.twimg.com/media/GwhafsPWoAADGgv?format=jpg&name=large" alt="">
+            </div>
+            <div class="icons hover:cursor-pointer my-3 text-gray-400 text-sm flex justify-between">
+              <div class="flex items-center gap-1">
+                <span class=" material-symbols-outlined">chat_bubble</span>
+                <span>1k</span>
+              </div>
+              <div class="flex items-center gap-1">
+                <span class="material-symbols-outlined">repeat</span>
+                <span>1.8k</span>
+              </div>
+              <div class="flex items-center gap-1">
+                <span class="material-symbols-outlined">favorite</span>
+                <span>2M</span>
+              </div>
+              <div class="flex items-center gap-1">
+                <span class="material-symbols-outlined">bar_chart</span>
+                <span>1k</span>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+      <hr class="text-gray-600 w-full">
+    </div>
+
+    <div class="third w-[90%] hidden md:block">
+      <div class="search m-3 sticky top-[2vh]">
+        <input type="text" class="w-3/4 rounded-4xl bg-zinc-900 text-white px-4 py-2 shadow-2xs shadow-zinc-500"
+          placeholder="Search">
+      </div>
+      <div class="what w-3/4 m-3 rounded-2xl bg-black-900 text-white shadow-2xs shadow-zinc-500 sticky top-[10vh]">
+        <h2 class="text-xl px-4 font-bold">What's Happening</h2>
+        <div class="items p-3 hover:cursor-pointer hover:bg-zinc-900 hover:rounded-3xl">
+          <div class="text-sm text-gray-500 font-bold">Trending In India</div>
+          <div class="font-bold">#Missile Launch by India </div>
+          <div class="text-sm text-gray-500 font-bold">40.2K posts</div>
+        </div>
+        <div class="items p-3 hover:cursor-pointer hover:bg-zinc-900 hover:rounded-3xl">
+          <div class="text-sm text-gray-500 font-bold">Trending In India</div>
+          <div class="font-bold">#Automobile ban by 2050 </div>
+          <div class="text-sm text-gray-500 font-bold">8.9K posts</div>
+        </div>
+        <div class="items p-3 hover:cursor-pointer hover:bg-zinc-900 hover:rounded-3xl">
+          <div class="text-sm text-gray-500 font-bold">Trending In India</div>
+          <div class="font-bold">#Politics Outrages </div>
+          <div class="text-sm text-gray-500 font-bold">4.2K posts</div>
+        </div>
+        <div class="items p-3 hover:cursor-pointer hover:bg-zinc-900 hover:rounded-3xl">
+          <div class="text-sm text-gray-500 font-bold">Trending In India</div>
+          <div class="font-bold">#Kawad Yatra Disturbing images </div>
+          <div class="text-sm text-gray-500 font-bold">9.K posts</div>
+        </div>
+        <div class="text-sm m-2 p-2 text-blue-500 font-bold hover:cursor-pointer hover:underline">Show more</div>
+      </div>
+      <div class="what w-3/4 m-3 my-4 rounded-2xl bg-black-900 text-white shadow-2xs shadow-zinc-500 sticky top-[70vh]">
+
+        <h2 class="text-xl font-bold mb-4 ">Whom to follow</h2>
+
+        <div class="flex items-center justify-between mb-4">
+          <div>
+            <div class="font-semibold">Akshat Gupta</div>
+            <div class="text-gray-500 text-sm">@akshatx03x</div>
+          </div>
+          <button class="border-2 rounded-2xl text-sm bg-amber-50 text-black font-bold hover:cursor-pointer px-4 py-1">
+            Follow
+          </button>
+        </div>
+        <div class="flex items-center justify-between mb-4">
+          <div>
+            <div class="font-semibold">Ishaan Sharma</div>
+            <div class="text-gray-500 text-sm">@ishaansharma123</div>
+          </div>
+          <button class="border-2 rounded-2xl text-sm bg-amber-50 text-black font-bold hover:cursor-pointer px-4 py-1">
+            Follow
+          </button>
+        </div>
+        <div class="flex items-center justify-between mb-4">
+          <div>
+            <div class="font-semibold">Saksham Sachan</div>
+            <div class="text-gray-500 text-sm">@saksham001</div>
+          </div>
+          <button class="border-2 rounded-2xl text-sm bg-amber-50 text-black font-bold hover:cursor-pointer px-4 py-1">
+            Follow
+          </button>
+        </div>
+        <div class="text-sm text-blue-500 font-bold hover:cursor-pointer hover:underline text-right">
+          Show more
+        </div>
+      </div>
+</body>
+
+</html>
