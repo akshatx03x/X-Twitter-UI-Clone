@@ -24,7 +24,7 @@ Templating (if used): EJS (optional)
 
 🚀 Getting Started
 1. Clone the repo
-git clone https://github.com/your-username/x-clone.git
+https://github.com/akshatx03x/X-Twitter-UI-Clone/tree/main
 cd x-clone
 
 📚 Learning Goals
